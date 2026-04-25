@@ -2,6 +2,8 @@
 title: "10. 블로그 운영을 위한 글 작성 규칙 만들기"
 date: 2026-04-25 10:30:00 +0900
 nav_order: 10
+categories: [Blogging]
+tags: [writing, markdown, workflow]
 ---
 
 # 블로그 운영을 위한 글 작성 규칙 만들기

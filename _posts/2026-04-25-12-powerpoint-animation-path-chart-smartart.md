@@ -2,6 +2,11 @@
 title: "12. PowerPoint에서 이동 경로, 차트, 스마트아트 애니메이션 만들기"
 date: 2026-04-25 10:50:00 +0900
 nav_order: 12
+categories: [PowerPoint]
+tags: [powerpoint, animation, chart, smartart]
+image:
+  path: /assets/images/posts/animation-making/powerpoint-animation-08.png
+  alt: PowerPoint animation preview
 ---
 
 # PowerPoint에서 이동 경로, 차트, 스마트아트 애니메이션 만들기

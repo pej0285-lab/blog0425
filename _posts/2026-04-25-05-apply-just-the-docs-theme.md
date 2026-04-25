@@ -2,6 +2,8 @@
 title: "5. Just the Docs 테마 적용하기"
 date: 2026-04-25 09:40:00 +0900
 nav_order: 5
+categories: [Jekyll]
+tags: [jekyll, theme, just-the-docs]
 ---
 
 # Just the Docs 테마 적용하기

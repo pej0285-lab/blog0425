@@ -2,6 +2,8 @@
 title: "7. GitHub에 커밋하고 푸시하기"
 date: 2026-04-25 10:00:00 +0900
 nav_order: 7
+categories: [Git]
+tags: [git, commit, push]
 ---
 
 # GitHub에 커밋하고 푸시하기

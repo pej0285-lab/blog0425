@@ -2,6 +2,8 @@
 title: "8. GitHub Actions로 Pages 배포하기"
 date: 2026-04-25 10:10:00 +0900
 nav_order: 8
+categories: [GitHub Pages]
+tags: [github-actions, deployment, jekyll]
 ---
 
 # GitHub Actions로 Pages 배포하기

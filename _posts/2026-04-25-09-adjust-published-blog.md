@@ -2,6 +2,8 @@
 title: "9. 배포된 블로그 확인하고 기본 설정 다듬기"
 date: 2026-04-25 10:20:00 +0900
 nav_order: 9
+categories: [GitHub Pages]
+tags: [github-pages, configuration, blog]
 ---
 
 # 배포된 블로그 확인하고 기본 설정 다듬기

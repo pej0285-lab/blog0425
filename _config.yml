@@ -1,41 +1,105 @@
+theme: jekyll-theme-chirpy
+
+lang: ko-KR
+timezone: Asia/Seoul
+
 title: My Blog
-description: A GitHub Pages blog powered by Just the Docs.
-theme: just-the-docs
-color_scheme: ink-blue
+tagline: GitHub Pages, PowerPoint, and practical tutorials
+description: >-
+  GitHub Pages 블로그 운영과 PowerPoint 튜토리얼을 정리하는 기술 블로그입니다.
 
-url: ""
-baseurl: ""
+url: "https://pej0285-lab.github.io"
+baseurl: "/blog0425"
 
-permalink: pretty
+github:
+  username: pej0285-lab
+
+social:
+  name: My Blog
+  email:
+  links:
+    - https://github.com/pej0285-lab
+
+theme_mode: dark
+toc: true
+
+comments:
+  provider:
+
+assets:
+  self_host:
+    enabled:
+    env:
+
+pwa:
+  enabled: true
+  cache:
+    enabled: true
+    deny_paths:
+
+paginate: 10
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
 collections:
-  posts:
-    permalink: "/blog/:year/:month/:day/:title/"
+  tabs:
     output: true
-
-just_the_docs:
-  collections:
-    posts:
-      name: Blog
-      nav_fold: false
-
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-
-search_enabled: true
-heading_anchors: true
-
-nav_external_links:
-  - title: Just the Docs
-    url: https://just-the-docs.com
-    hide_icon: false
-
-footer_content: "Powered by <a href=\"https://just-the-docs.com\">Just the Docs</a>."
+    sort_by: order
 
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
-      layout: default
+      layout: post
+      toc: true
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - tools
+  - README.md
+  - LICENSE
+  - purgecss.js
+  - "*.config.js"
+  - "package*.json"
+  - "애니메이션 만들기.docx"
+  - "~$메이션 만들기.docx"
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/

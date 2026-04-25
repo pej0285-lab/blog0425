@@ -2,6 +2,11 @@
 title: "11. PowerPoint 슬라이드 마스터로 공통 디자인 적용하기"
 date: 2026-04-25 10:40:00 +0900
 nav_order: 11
+categories: [PowerPoint]
+tags: [powerpoint, slide-master, design]
+image:
+  path: /assets/images/posts/Test2220/powerpoint-slide-master-15.png
+  alt: PowerPoint slide master design preview
 ---
 
 # PowerPoint 슬라이드 마스터로 공통 디자인 적용하기

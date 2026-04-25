@@ -2,6 +2,8 @@
 title: "4. Jekyll 기본 프로젝트 구성 이해하기"
 date: 2026-04-25 09:30:00 +0900
 nav_order: 4
+categories: [Jekyll]
+tags: [jekyll, markdown, structure]
 ---
 
 # Jekyll 기본 프로젝트 구성 이해하기

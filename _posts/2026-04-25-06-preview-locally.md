@@ -2,6 +2,8 @@
 title: "6. 로컬에서 블로그 미리보기"
 date: 2026-04-25 09:50:00 +0900
 nav_order: 6
+categories: [Jekyll]
+tags: [jekyll, local-preview, bundler]
 ---
 
 # 로컬에서 블로그 미리보기

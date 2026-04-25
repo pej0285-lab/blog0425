@@ -1,6 +1,6 @@
 # My Blog
 
-This repository is configured as a GitHub Pages blog using the [Just the Docs](https://github.com/just-the-docs/just-the-docs) Jekyll theme.
+This repository is configured as a GitHub Pages blog using the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) Jekyll theme.
 
 ## Local preview
 
@@ -10,6 +10,8 @@ Install Ruby and Bundler, then run:
 bundle install
 bundle exec jekyll serve
 ```
+
+The local preview usually runs at `http://localhost:4000/blog0425/`.
 
 ## GitHub Pages
 

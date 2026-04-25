@@ -2,6 +2,8 @@
 title: "1. GitHub Pages 블로그를 만들기 전에 알아둘 것"
 date: 2026-04-25 09:00:00 +0900
 nav_order: 1
+categories: [GitHub Pages]
+tags: [github-pages, jekyll, blog]
 ---
 
 # GitHub Pages 블로그를 만들기 전에 알아둘 것

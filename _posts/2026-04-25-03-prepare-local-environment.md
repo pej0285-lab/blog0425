@@ -2,6 +2,8 @@
 title: "3. 로컬 개발 환경 준비하기"
 date: 2026-04-25 09:20:00 +0900
 nav_order: 3
+categories: [GitHub Pages]
+tags: [jekyll, ruby, bundler]
 ---
 
 # 로컬 개발 환경 준비하기

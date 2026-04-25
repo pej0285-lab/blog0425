@@ -2,6 +2,8 @@
 title: "2. GitHub에서 새 저장소 만들기"
 date: 2026-04-25 09:10:00 +0900
 nav_order: 2
+categories: [GitHub Pages]
+tags: [github, repository, blog]
 ---
 
 # GitHub에서 새 저장소 만들기
