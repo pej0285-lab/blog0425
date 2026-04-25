@@ -1,0 +1,30 @@
+title: My Blog
+description: A GitHub Pages blog powered by Just the Docs.
+theme: just-the-docs
+
+url: ""
+baseurl: ""
+
+permalink: pretty
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+search_enabled: true
+heading_anchors: true
+
+nav_external_links:
+  - title: Just the Docs
+    url: https://just-the-docs.com
+    hide_icon: false
+
+footer_content: "Powered by <a href=\"https://just-the-docs.com\">Just the Docs</a>."
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: default
+      parent: Blog
