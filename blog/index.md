@@ -9,7 +9,8 @@ permalink: /blog/
 # Blog
 
 {% if site.posts.size > 0 %}
-  {% for post in site.posts %}
+  {% assign posts_by_order = site.posts | sort: "nav_order" %}
+  {% for post in posts_by_order %}
 ## [{{ post.title }}]({{ post.url | relative_url }})
 
 {{ post.date | date: "%Y-%m-%d" }}
